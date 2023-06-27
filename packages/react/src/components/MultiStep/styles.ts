@@ -1,7 +1,7 @@
 import { styled } from '../../styles'
 import { Text } from '../Text'
 
-export const MultStepContainer = styled('div', {})
+export const MultiStepContainer = styled('div', {})
 
 export const Label = styled(Text, {
   color: '$gray200',

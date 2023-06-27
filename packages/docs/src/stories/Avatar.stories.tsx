@@ -5,6 +5,13 @@ export default {
   title: 'Data display/Avatar',
   component: Avatar,
   tags: ['autodocs'],
+  argTypes: {
+    src: {
+      control: {
+        type: 'text',
+      },
+    },
+  },
   args: {
     src: 'https://picsum.photos/200',
     alt: 'Aron Adams',

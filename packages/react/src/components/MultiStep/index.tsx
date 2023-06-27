@@ -1,4 +1,4 @@
-import { Label, MultStepContainer, Step, Steps } from './styles'
+import { Label, MultiStepContainer, Step, Steps } from './styles'
 
 export interface MultiStepProps {
   size: number
@@ -7,7 +7,7 @@ export interface MultiStepProps {
 
 export function MultiStep({ size, currentStep = 1 }: MultiStepProps) {
   return (
-    <MultStepContainer>
+    <MultiStepContainer>
       <Label>
         Passo {currentStep} de {size}
       </Label>
@@ -17,6 +17,8 @@ export function MultiStep({ size, currentStep = 1 }: MultiStepProps) {
           return <Step key={step} active={currentStep >= step} />
         })}
       </Steps>
-    </MultStepContainer>
+    </MultiStepContainer>
   )
 }
+
+MultiStep.displayName = 'MultiStep'

@@ -20,6 +20,14 @@ export default {
   ],
   args: {
     placeholder: 'Type your name',
+    disabled: false,
+  },
+  argTypes: {
+    disabled: {
+      control: {
+        type: 'boolean',
+      },
+    },
   },
 } as Meta<TextInputProps>
 

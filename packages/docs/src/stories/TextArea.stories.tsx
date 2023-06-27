@@ -18,6 +18,16 @@ export default {
       )
     },
   ],
+  args: {
+    disabled: false,
+  },
+  argTypes: {
+    disabled: {
+      control: {
+        type: 'boolean',
+      },
+    },
+  },
 } as Meta<TextAreaProps>
 
 export const Primary: StoryObj<TextAreaProps> = {
