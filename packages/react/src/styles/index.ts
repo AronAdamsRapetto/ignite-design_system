@@ -1,4 +1,4 @@
-import * as tokens from '@ignite-ui/tokens'
+import * as tokens from '@aron-adams/tokens'
 import { createStitches, defaultThemeMap } from '@stitches/react'
 
 export const {
