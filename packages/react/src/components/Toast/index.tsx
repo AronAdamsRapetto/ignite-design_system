@@ -24,7 +24,7 @@ export function Toast({
         onOpenChange={onOpenChange}
         defaultOpen={true}
         {...props}
-        duration={50000}
+        duration={3000}
       >
         <div>
           <RadixToast.Title asChild>
@@ -43,3 +43,5 @@ export function Toast({
     </>
   )
 }
+
+Toast.displayName = 'Toast'
