@@ -20,7 +20,7 @@ export const Primary: StoryObj<TooltipProps> = {
         <Text>Hover me</Text>
       </Box>
     ),
-    textContent: 'Tooltip',
+    textContent: 'I am a Tooltip',
   },
 }
 
